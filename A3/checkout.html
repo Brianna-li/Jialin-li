@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>product</title>
+	<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+	<div class="header">
+		<div class="logo"><a href="index.html"><img src="img/logo.jpg" ></a></div>
+		<div class="navbox">
+			<ul>
+				<li><a href="product.html">All products</a></li>
+				<li><a href="#">Shop By Collection</a></li>
+				<li><a href="#">Shop by Category</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Help</a></li>
+				<div class="btn"><a href="javascript:;">×</a></div>
+			</ul>
+			<div class="menu"><span></span><span></span><span></span></div>
+			<div class="soso">
+				<div class="cartbtn"><a href="#"><img src="img/cart.png" alt=""></a></div>
+				<form action="" method="post">
+					<input type="text" placeholder="Search">
+					<button type="submit"><img src="img/soso.png"></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="cartout">
+		<div class="title"><a href="cart.html"><img src="img/black.jpg" ></a><h2>Check Out</h2></div>
+		<div class="itembox">
+			<div class="item_01">
+				<table>
+					<tr><td width="10%"><a href="#"><span></span></a></td><td width="10%"><img src="img/pro_02.jpg" alt=""></td><td width="30%">7 wonders</td><td>$44.51</td></tr>
+					<tr><td><a href="#"><span></span></a></td><td><img src="img/pro_04.jpg" alt=""></td><td>Splendor</td><td>$130.68</td></tr>
+				</table>
+				<div class="info"><p>Total:</p><span>$175.19</span></div>
+			</div>
+			
+			<div class="item_02">
+				<form action="pay.html" name="order" onsubmit="return checkorder();" method="post">
+					<dl><dt>Name</dt><dd><input type="text" name="username"></dd></dl>
+					<dl><dt>Address Line1*</dt><dd><input type="text" name="address1"></dd></dl>
+					<dl><dt>Address Line2</dt><dd><input type="text" name="address2"></dd></dl>
+					<dl><dt>City *</dt><dd><input type="text" name="city"></dd></dl>
+					<dl><dt>Stare/Provice*</dt><dd><input type="text" name="stare"></dd></dl>
+					<dl><dt>Country*</dt><dd><input type="text" name="country"></dd></dl>
+					<dl><dt>Postal Code/Zip Code*</dt><dd><input type="text" name="code"></dd></dl>
+					<dl><dt>Phone Number*</dt><dd><input type="text" name="phone"></dd></dl>
+					<button class="btn1">SAVE ADDRESS</button>
+					<dl><dt>Aiternate Shipping Notification Email</dt><dd><input type="text" name="email"></dd></dl>
+					<dl><dt>Order Notes</dt><dd><textarea rows="" cols="" name="notes"></textarea></dd></dl>
+					<p>Confirm order an delivery address</p>
+					<button type="submit" class="btn2">CONTINUE</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="f_top">
+			<ul>
+				<li><a href="#"><img src="img/f_01.jpg"></a></li>
+				<li><a href="#"><img src="img/f_02.jpg"></a></li>
+				<li><a href="#"><img src="img/f_03.jpg"></a></li>
+				<li><a href="#"><img src="img/f_04.jpg"></a></li>
+				<li><a href="#"><img src="img/f_05.jpg"></a></li>
+				<li><a href="#"><img src="img/f_06.jpg"></a></li>
+				<li><a href="#"><img src="img/f_07.jpg"></a></li>
+				<li><a href="#"><img src="img/f_08.jpg"></a></li>
+				<li><a href="#"><img src="img/f_09.jpg"></a></li>
+				<li><a href="#"><img src="img/f_10.jpg"></a></li>
+			</ul>
+		</div>
+		<div class="f_mid">
+			<ul>
+				<li><a href="#">Announcements</a></li>
+				<li><a href="#">Art Tests</a></li>
+				<li><a href="#">Auctions</a></li>
+				<li><a href="#">Contests</a></li>
+				<li><a href="#">Hall of Fame</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">Poducast</a></li>
+				<li><a href="#">Site ideas</a></li>
+			</ul>
+			<div class="f_logo"><img src="img/f_logo.jpg" alt=""></div>
+			<ul>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">History</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Promote Us</a></li>
+				<li><a href="#">Thanks</a></li>
+				<li><a href="#">Developer API</a></li>
+				<li><a href="#">Terms of Use</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+			</ul>
+		</div>
+		<div class="f_bom">©2009-2021 the Game Crafter,LLC.All rights reserved</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
